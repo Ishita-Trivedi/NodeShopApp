@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js",
+    "stop": "pkill --signal SIGINT myApp"
+  },
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "body-parser": "^1.18.3",
+    "ejs": "^3.1.9",
+    "express": "^4.16.3",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.9.2",
+    "pug": "^3.0.2",
+    "save-dev": "^0.0.1-security",
+    "sequelize": "^6.37.1",
+    "update": "^0.4.2"
+  }
+}
